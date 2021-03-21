@@ -6,7 +6,6 @@ let password = prompt("Введіть пароль");
 
 let message;
 
-console.log(password);
 
 if (password) {
   if (password === ADMIN_PASSWORD) {
