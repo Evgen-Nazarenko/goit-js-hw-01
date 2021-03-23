@@ -1,31 +1,31 @@
 "use strict";
 
-let usercountry = prompt("Введіть вашу країну");
+let usercountry = prompt('Введіть вашу країну').toLowerCase();
 
 let cost;
 
 switch (usercountry) {
-  case "Китай", "китай":
+  case "китай":
     cost = 100;
     console.log(`Доставка в ${usercountry} буде коштувати ${cost} кредитів`);
     break;
 
-  case "Чилі", "чилі":
+  case "чилі":
     cost = 250;
     console.log(`Доставка в ${usercountry} буде коштувати ${cost} кредитів`);
     break;
 
-  case "Австралія", "австралія":
+  case "австралія":
     cost = 170;
     console.log(`Доставка в ${usercountry} буде коштувати ${cost} кредитів`);
     break;
 
-  case "Індія", "індія":
+  case "індія":
     cost = 80;
     console.log(`Доставка в ${usercountry} буде коштувати ${cost} кредитів`);
     break;
 
-  case "Ямайка", "ямайка":
+  case "ямайка":
     cost = 120;
     console.log(`Доставка в ${usercountry} буде коштувати ${cost} кредитів`);
     break;
